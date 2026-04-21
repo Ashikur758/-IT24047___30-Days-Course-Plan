@@ -84,7 +84,7 @@ Day 30: Project Submission & Review
 Class, Object, Properties, Methods, Inheritance + Encapsulation + Polymorphism
 
 🔗 Source Code:
-https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan/edit/main
+https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan
 
 🎥 Video:
 https://www.youtube.com/watch?v=s2hoJkIz3RQ
@@ -154,7 +154,7 @@ public class Main {
 Access Modifiers + Non-Access Modifiers
 
 🔗 Source Code:
-https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan/edit/main
+https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan
 
 🎥 Video:
 https://www.youtube.com/watch?v=lWFzm8qIR1c
@@ -239,7 +239,7 @@ public class Main {
 Encapsulation + Access Modifiers
 
 🔗 Source Code:
-https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan/edit/main
+https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan
 
 🎥 Video:
 https://www.youtube.com/watch?v=HZUUYnIZO_0
