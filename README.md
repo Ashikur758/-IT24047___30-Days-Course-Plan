@@ -2,10 +2,15 @@
 This repository contains a 30-day structured Java learning roadmap designed for beginners. It covers core programming concepts, problem-solving techniques, and practical development skills using Java.  The course is organized day-by-day, making it easy to follow and build consistency.
 📅 30-Day Learning Plan
 🔹 Week 1: Java Basics
+
 Day 1: Introduction to Java & Setup (JDK, IDE)
+
 Day 2: Basic Syntax & Structure
+
 Day 3: Variables & Data Types
+
 Day 4: Operators
+
 Day 5: Input/Output (Scanner)
 Day 6: Conditional Statements (if-else, switch)
 Day 7: Practice Problems
