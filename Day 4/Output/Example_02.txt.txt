@@ -1,9 +1,0 @@
-Outside class:
-25
-Dhaka
-Bangladesh
-Inside class:
-Private Name
-25
-Dhaka
-Bangladesh
