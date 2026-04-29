@@ -1,0 +1,2 @@
+Map Output: {101=Ashik, 102=Rahim, 103=Karim}
+Value for 102: Rahim

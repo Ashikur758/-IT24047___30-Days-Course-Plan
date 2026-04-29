@@ -1,0 +1,2 @@
+List Output: [Apple, Banana, Apple]
+Set Output: [Apple, Banana]
