@@ -1,0 +1,2 @@
+Dog barks
+Animal eats food
