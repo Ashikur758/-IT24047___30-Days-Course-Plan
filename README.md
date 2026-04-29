@@ -324,3 +324,432 @@ public class Main {
         s1.display();
     }
 }
+
+📅 Date: 23/04/2025
+✅ Day #04
+
+📌 Topic: Encapsulation + Access Modifiers (Deep Practice)
+
+🔗 Source Code: https://github.com/Ashikur758/-IT24047___30-Days-Course-Plan
+
+🎥 Video: https://www.youtube.com/watch?v=HZUUYnIZO_0
+
+💻 Example #01
+(Encapsulation with Getter & Setter)
+
+class Student {
+    private String name;
+    private int age;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+
+        s1.setName("Ashik");
+        s1.setAge(21);
+
+        System.out.println("Name: " + s1.getName());
+        System.out.println("Age: " + s1.getAge());
+    }
+}
+
+💻 Example #02
+(Access Modifiers Practice)
+
+class Person {
+    private String name = "Private Name";
+    public int age = 25;
+    protected String city = "Dhaka";
+    String country = "Bangladesh";
+
+    void show() {
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(city);
+        System.out.println(country);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person p = new Person();
+
+        System.out.println(p.age);
+        System.out.println(p.city);
+        System.out.println(p.country);
+
+        p.show();
+    }
+}
+📅 Date: 24/04/2025
+✅ Day #05
+
+📌 Topic: Constructor (Default + Parameterized)
+
+💻 Example #01
+
+class Student {
+    String name;
+    int age;
+
+    Student() {
+        name = "Unknown";
+        age = 0;
+    }
+
+    void show() {
+        System.out.println(name + " " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.show();
+    }
+}
+
+💻 Example #02
+
+class Student {
+    String name;
+    int age;
+
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    void show() {
+        System.out.println(name + " " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student("Ashik", 21);
+        Student s2 = new Student("Rahim", 22);
+
+        s1.show();
+        s2.show();
+    }
+}
+📅 Date: 25/04/2025
+✅ Day #06
+
+📌 Topic: Inheritance (Single + Multilevel)
+
+💻 Example #01
+
+class Animal {
+    void eat() {
+        System.out.println("Eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+    }
+}
+
+💻 Example #02
+
+class Animal {
+    void eat() {
+        System.out.println("Eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking");
+    }
+}
+
+class Puppy extends Dog {
+    void cry() {
+        System.out.println("Crying");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Puppy p = new Puppy();
+        p.eat();
+        p.bark();
+        p.cry();
+    }
+}
+📅 Date: 26/04/2025
+✅ Day #07
+
+📌 Topic: Polymorphism (Overloading + Overriding)
+
+💻 Example #01
+
+class Math {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Math m = new Math();
+
+        System.out.println(m.add(10, 20));
+        System.out.println(m.add(10, 20, 30));
+    }
+}
+
+💻 Example #02
+
+class Animal {
+    void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();
+    }
+}
+📅 Date: 27/04/2025
+✅ Day #08
+
+📌 Topic: Abstraction (Abstract Class + Interface)
+
+💻 Example #01
+
+abstract class Animal {
+    abstract void sound();
+
+    void eat() {
+        System.out.println("Eating");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Barking");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+        d.eat();
+    }
+}
+
+💻 Example #02
+
+interface Animal {
+    void sound();
+}
+
+class Cat implements Animal {
+    public void sound() {
+        System.out.println("Meow");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Cat();
+        a.sound();
+    }
+}
+📅 Date: 28/04/2025
+✅ Day #09
+
+📌 Topic: Inner Class
+
+💻 Example #01
+
+class Outer {
+    class Inner {
+        void show() {
+            System.out.println("Inner Class");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Outer o = new Outer();
+        Outer.Inner i = o.new Inner();
+
+        i.show();
+    }
+}
+
+💻 Example #02
+
+class Outer {
+    static class Inner {
+        void show() {
+            System.out.println("Static Inner Class");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Outer.Inner i = new Outer.Inner();
+        i.show();
+    }
+}
+📅 Date: 29/04/2025
+✅ Day #10
+
+📌 Topic: Collections (List, Set, Map)
+
+💻 Example #01
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        List<String> list = new ArrayList<>();
+        list.add("A");
+        list.add("B");
+        list.add("A");
+
+        System.out.println(list);
+
+        Set<String> set = new HashSet<>(list);
+        System.out.println(set);
+    }
+}
+
+💻 Example #02
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Map<Integer, String> map = new HashMap<>();
+
+        map.put(1, "Ashik");
+        map.put(2, "Rahim");
+        map.put(3, "Karim");
+
+        System.out.println(map);
+        System.out.println(map.get(2));
+    }
+}
+📅 Date: 30/04/2025
+✅ Day #11
+
+📌 Topic: ArrayList vs LinkedList
+
+💻 Example #01
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Java");
+        list.add("Python");
+
+        System.out.println(list);
+    }
+}
+
+💻 Example #02
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        LinkedList<String> list = new LinkedList<>();
+        list.add("A");
+        list.add("B");
+
+        list.addFirst("Start");
+        System.out.println(list);
+    }
+}
+📅 Date: 01/05/2025
+✅ Day #12
+
+📌 Topic: Set (HashSet + TreeSet)
+
+💻 Example #01
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        HashSet<Integer> set = new HashSet<>();
+
+        set.add(10);
+        set.add(20);
+        set.add(10);
+
+        System.out.println(set);
+    }
+}
+
+💻 Example #02
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        TreeSet<Integer> set = new TreeSet<>();
+
+        set.add(30);
+        set.add(10);
+        set.add(20);
+
+        System.out.println(set);
+    }
+}
