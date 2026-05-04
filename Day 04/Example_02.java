@@ -19,10 +19,10 @@ public class Example_02 {
 
         System.out.println("Outside class:");
 
-        // System.out.println(p1.name); ❌ Not accessible (private)
-        System.out.println(p1.age);      // ✅ public
-        System.out.println(p1.city);     // ✅ protected (same package)
-        System.out.println(p1.country);  // ✅ default (same package)
+        // System.out.println(p1.name); 
+        System.out.println(p1.age);     
+        System.out.println(p1.city);     
+        System.out.println(p1.country);  
 
         p1.display();
     }
