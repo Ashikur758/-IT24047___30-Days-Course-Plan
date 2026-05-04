@@ -1,0 +1,3 @@
+Queue: [10, 50, 30]
+After Dequeue: [30, 50]
+Front: 30

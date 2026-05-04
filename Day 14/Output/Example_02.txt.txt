@@ -1,0 +1,2 @@
+HashMap: {1=Ashik, 2=Karim, 3=Rahim}
+TreeMap: {1=Ashik, 2=Karim, 3=Rahim}
