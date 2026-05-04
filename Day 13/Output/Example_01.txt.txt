@@ -1,1 +1,0 @@
-HashSet Output: [Apple, Orange, Banana]
