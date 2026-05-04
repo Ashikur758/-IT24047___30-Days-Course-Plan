@@ -1,3 +1,0 @@
-ArrayList: [Java, Python, C++]
-Element at index 1: Python
-After removal: [Java, C++]

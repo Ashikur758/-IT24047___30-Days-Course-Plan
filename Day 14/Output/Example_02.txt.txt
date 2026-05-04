@@ -1,2 +1,0 @@
-LinkedList: [Red, Green, Blue]
-After operations: [Yellow, Red, Green]
